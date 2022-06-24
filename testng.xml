@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="suite">
-<test name="Product Search">
+<suite name="All">
+<test name="Test suites">
     <classes>
+        <class name="testcases.Registration_tests"></class>
+        <class name="testcases.Login_tests"></class>
         <class name="testcases.SearchResults_tests"></class>
+        <class name="testcases.AddToCart_tests"></class>
+        <class name="testcases.Checkout_tests"></class>
     </classes></test>
 </suite>
 

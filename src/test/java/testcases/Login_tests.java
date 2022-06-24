@@ -10,84 +10,99 @@ import com.aventstack.extentreports.reporter.configuration.ChartLocation;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 import library.SelectBrowser;
 import org.apache.commons.io.FileUtils;
-import org.openqa.selenium.*;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
+import pages.LoginPage;
 import pages.MainPage;
-import pages.SearchResultsPage;
+import pages.ProductPage;
+import pages.RegistrationPage;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.concurrent.TimeUnit;
+import java.time.Duration;
 
-public class SearchResults_tests {
-
+public class Login_tests {
     WebDriver driver;
-    SearchResultsPage searchResultsPage;
+    ProductPage productPage;
+    LoginPage loginPage;
 
+    RegistrationPage registrationPage;
     MainPage mainPage;
     private static ExtentHtmlReporter htmlReporter;
     private static ExtentReports extent;
     private static ExtentTest test;
     WebElement webElement;
-    @BeforeSuite
-    public void setUp()
-    {
 
-        htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir") +"/test-output/SearchFeature_tests.html");
+
+    @BeforeSuite
+    public void setUpReport() {
+        htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir") + "/test-output/Login_Tests.html");
         extent = new ExtentReports();
 
         extent.attachReporter(htmlReporter);
         extent.setSystemInfo("Host Name", "DESKTOP-5G64RED");
         extent.setSystemInfo("Environment", "QA");
         extent.setSystemInfo("User Name", "Alexander");
+
         htmlReporter.config().setChartVisibilityOnOpen(true);
-        htmlReporter.config().setDocumentTitle("AutomationTesting Demo Report");
+        htmlReporter.config().setDocumentTitle("ProductTestReport");
         htmlReporter.config().setReportName("My Own Report");
-        htmlReporter.config().setTestViewChartLocation(ChartLocation.BOTTOM);
-        htmlReporter.config().setTheme(Theme.STANDARD);
+        htmlReporter.config().setTestViewChartLocation(ChartLocation.TOP);
+        htmlReporter.config().setTheme(Theme.DARK);
     }
-    @BeforeMethod
-    public void browserLauncher() {
-        //Change browsername if you want to test other browser
+
+
+    @BeforeTest
+    public void launchBrowser() {
         driver = SelectBrowser.StartBrowser("Chrome");
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
         driver.get("https://www.alexandnova.com/");
     }
 
-
-
-    @Test(priority = 8)
-    public void test_searchProduct() throws IOException {     test = extent.createTest("test_searchProduct","Test case passed");
+    @Test(priority = 6)
+    public void test_verifyLogin() throws InterruptedException, IOException {
+        test = extent.createTest("test_searchProduct", "Test case passed");
         mainPage = new MainPage(driver);
-        mainPage.findProduct("baby shoes");
-        mainPage.clickSearchButton();
+        mainPage.accountSignIn();
+        loginPage = new LoginPage(driver);
+        loginPage.enterEmail("Testdrive@gmail.com");
+        Thread.sleep(3000);
+        loginPage.enterPassword("Test1234");
+        loginPage.clickLoginButton();
+        Thread.sleep(15000);
 
-        String expectedSearchResult ="Search results";
-        searchResultsPage = new SearchResultsPage(driver);
-        String actual= searchResultsPage.pageTitle();
-        Assert.assertEquals(actual, expectedSearchResult);
+        String actual=loginPage.getPageTitle();
+        String expected="Welcome, James";
+        Assert.assertEquals(actual, expected);
         File file = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-        FileUtils.copyFile(file, new File("test-output/Screenshots/test_searchProduct.png"));;
-        driver.close();
-    }
-    @Test(priority = 9)
-    public void test_emptySearch() throws IOException {
-        test=extent.createTest("test_emptySearch","Test case passed" );
-        mainPage=new MainPage(driver);
-        mainPage.clickSearchButton();
-        searchResultsPage=new SearchResultsPage(driver);
-
-        String expectedSearchResult ="Search";
-        String actual= String.valueOf(searchResultsPage.pageTitle());
-        Assert.assertEquals(actual,expectedSearchResult);
-        File file = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-        FileUtils.copyFile(file, new File("test-output/Screenshots/test_emptySearch.png"));;
+        FileUtils.copyFile(file, new File("test-output/Screenshots/test_verifyLogin.png"));;
         driver.close();
 
     }
+    @Test(priority = 7)
+    public void test_negativeLogin() throws InterruptedException, IOException {
+        test = extent.createTest("test_searchProduct", "Test case passed");
+        mainPage = new MainPage(driver);
+        mainPage.accountSignIn();
+        loginPage = new LoginPage(driver);
+        loginPage.enterEmail(" ");
+        Thread.sleep(5000);
+        loginPage.enterPassword("Test1234");
+        loginPage.clickLoginButton();
+        Thread.sleep(15000);
+        String actual=loginPage.checkErrorMessage();
+        String expected="Sorry! Please try that again.";
+        Assert.assertEquals(actual, expected);
+        File file = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+        FileUtils.copyFile(file, new File("test-output/Screenshots/test_negativeLogin.png"));;
+        driver.close();
 
+    }
     @AfterMethod
     public void getResult(ITestResult result) {
         if (result.getStatus() == ITestResult.FAILURE) {
@@ -106,4 +121,4 @@ public class SearchResults_tests {
     {
         extent.flush();
     }
-}
+    }

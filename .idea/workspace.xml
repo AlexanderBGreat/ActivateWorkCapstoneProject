@@ -4,33 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac2092ca-9498-4630-8453-98c211172acf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chromedriver_win32/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/edgedriver_win64/Driver_Notes/EULA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/edgedriver_win64/Driver_Notes/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/edgedriver_win64/Driver_Notes/credits.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/edgedriver_win64/msedgedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geckodriver-v0.31.0-win64/geckodriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/library/SelectBrowser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/BaseTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/MainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/ProductPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/RegistrationPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/SearchResultsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testcases/AddToCart_tests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testcases/Registration_tests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testcases/SearchResults_tests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    <list default="true" id="ac2092ca-9498-4630-8453-98c211172acf" name="Changes" comment="echo &quot;# ActivateWorkCapstoneProject&quot; &gt;&gt; README.md&#10;git init&#10;git add README.md&#10;git commit -m &quot;first commit&quot;&#10;git branch -M main&#10;git remote add origin https://github.com/AlexanderBGreat/ActivateWorkCapstoneProject.git&#10;git push -u origin main">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/CartPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/CheckoutPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testcases/BaseTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testcases/Checkout_tests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testcases/Login_tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/ProductPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/ProductPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/RegistrationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/SearchResultsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/SearchResultsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/AddToCart_tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/AddToCart_tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/Registration_tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/Registration_tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/SearchResults_tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/SearchResults_tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,17 +47,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/ALEXANDER/Documents/SBA/Deitrick_Alexander_Capstone_CaseStudy",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ALEXANDER/Documents/SBA/Deitrick_Alexander_Capstone_CaseStudy&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ALEXANDER\Documents\SBA\Deitrick_Alexander_Capstone_CaseStudy" />
@@ -83,8 +72,8 @@
       <recent name="library" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.AddToCart_tests">
-    <configuration name="AddToCart_tests" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C:/Users/ALEXANDER/Documents/SBA/Deitrick_Alexander_Capstone_CaseStudy/testng.xml">
+    <configuration name="AddToCart_tests.test_CartCheck" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Deitrick_Alexander_Capstone_CaseStudy" />
       <extension name="coverage">
         <pattern>
@@ -94,14 +83,25 @@
       </extension>
       <option name="PACKAGE_NAME" value="testcases" />
       <option name="MAIN_CLASS_NAME" value="testcases.AddToCart_tests" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="METHOD_NAME" value="test_CartCheck" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddToCart_tests.test_PriceCheck" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/ALEXANDER/Documents/SBA/Deitrick_Alexander_Capstone_CaseStudy/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Deitrick_Alexander_Capstone_CaseStudy" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Login_tests.test_negativeLogin" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Deitrick_Alexander_Capstone_CaseStudy" />
       <extension name="coverage">
         <pattern>
@@ -110,8 +110,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testcases" />
-      <option name="MAIN_CLASS_NAME" value="testcases.AddToCart_tests" />
-      <option name="METHOD_NAME" value="test_PriceCheck" />
+      <option name="MAIN_CLASS_NAME" value="testcases.Login_tests" />
+      <option name="METHOD_NAME" value="test_negativeLogin" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -119,7 +119,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Registration_tests.registrationPage_test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Login_tests.test_verifyLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Deitrick_Alexander_Capstone_CaseStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testcases" />
+      <option name="MAIN_CLASS_NAME" value="testcases.Login_tests" />
+      <option name="METHOD_NAME" value="test_verifyLogin" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Registration_tests.test_emailValidation" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Deitrick_Alexander_Capstone_CaseStudy" />
       <extension name="coverage">
         <pattern>
@@ -129,43 +147,8 @@
       </extension>
       <option name="PACKAGE_NAME" value="testcases" />
       <option name="MAIN_CLASS_NAME" value="testcases.Registration_tests" />
-      <option name="METHOD_NAME" value="registrationPage_test" />
+      <option name="METHOD_NAME" value="test_emailValidation" />
       <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Registration_tests.verifyRegisterNewUser_test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Deitrick_Alexander_Capstone_CaseStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testcases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testcases" />
-      <option name="MAIN_CLASS_NAME" value="testcases.Registration_tests" />
-      <option name="METHOD_NAME" value="verifyRegisterNewUser_test" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SearchResults_tests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Deitrick_Alexander_Capstone_CaseStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testcases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testcases" />
-      <option name="MAIN_CLASS_NAME" value="testcases.SearchResults_tests" />
-      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -174,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.AddToCart_tests" />
-        <item itemvalue="TestNG.AddToCart_tests.test_PriceCheck" />
-        <item itemvalue="TestNG.Registration_tests.verifyRegisterNewUser_test" />
-        <item itemvalue="TestNG.Registration_tests.registrationPage_test" />
-        <item itemvalue="TestNG.SearchResults_tests" />
+        <item itemvalue="TestNG.C:/Users/ALEXANDER/Documents/SBA/Deitrick_Alexander_Capstone_CaseStudy/testng.xml" />
+        <item itemvalue="TestNG.Registration_tests.test_emailValidation" />
+        <item itemvalue="TestNG.AddToCart_tests.test_CartCheck" />
+        <item itemvalue="TestNG.Login_tests.test_verifyLogin" />
+        <item itemvalue="TestNG.Login_tests.test_negativeLogin" />
       </list>
     </recent_temporary>
   </component>
@@ -191,6 +174,14 @@
       <option name="presentableId" value="Default" />
       <updated>1655242257732</updated>
     </task>
+    <task id="LOCAL-00001" summary="echo &quot;# ActivateWorkCapstoneProject&quot; &gt;&gt; README.md&#10;git init&#10;git add README.md&#10;git commit -m &quot;first commit&quot;&#10;git branch -M main&#10;git remote add origin https://github.com/AlexanderBGreat/ActivateWorkCapstoneProject.git&#10;git push -u origin main">
+      <created>1655852555698</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1655852555698</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -198,10 +189,46 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="echo &quot;# ActivateWorkCapstoneProject&quot; &gt;&gt; README.md&#10;git init&#10;git add README.md&#10;git commit -m &quot;first commit&quot;&#10;git branch -M main&#10;git remote add origin https://github.com/AlexanderBGreat/ActivateWorkCapstoneProject.git&#10;git push -u origin main" />
+    <option name="LAST_COMMIT_MESSAGE" value="echo &quot;# ActivateWorkCapstoneProject&quot; &gt;&gt; README.md&#10;git init&#10;git add README.md&#10;git commit -m &quot;first commit&quot;&#10;git branch -M main&#10;git remote add origin https://github.com/AlexanderBGreat/ActivateWorkCapstoneProject.git&#10;git push -u origin main" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/testcases/Login_tests.java</url>
+          <line>87</line>
+          <properties class="testcases.Login_tests" method="test_negativeLogin">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/testcases/Registration_tests.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -12,7 +12,7 @@ public class SearchResultsPage {
     WebDriver driver;
 
     //page factory
-    By pageTitle = By.className("page-title");
+    By pageTitle = By.xpath("//*[@id=\"keyboard-nav-3\"]/h1");
 
     public String pageTitle(){
 
@@ -20,11 +20,10 @@ public class SearchResultsPage {
         return title; }
 
 
-    @FindBy(xpath = "$x(\"//li[@class='x-refine__main__list--value'][1]/div/a/div/span/input\")\n")
-    List<WebElement> checkButtonList;
+
 
     public SearchResultsPage(WebDriver driver){
         this.driver=driver;
-        PageFactory.initElements(driver,this);
+
     }
 }

@@ -12,6 +12,7 @@ By products= By.id("navigation-shop");
 
 By firstProduct= By.linkText("Elephant Opposites Early Education Cloth Book");
 By  account= By.id("customer_login_link");
+By jacketPanel = By.xpath("//*[@id=\"shopify-section-section-2\"]/section/div/article[1]/div/p/a");
     public MainPage(WebDriver driver) {
         this.driver = driver;
     }
@@ -34,6 +35,9 @@ By  account= By.id("customer_login_link");
         driver.findElement(firstProduct).click();
     }
 
+    public void clickOnJacketPanel(){
+        driver.findElement(jacketPanel).click();
+    }
 
 
 }
