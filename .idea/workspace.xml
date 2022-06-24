@@ -5,21 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac2092ca-9498-4630-8453-98c211172acf" name="Changes" comment="echo &quot;# ActivateWorkCapstoneProject&quot; &gt;&gt; README.md&#10;git init&#10;git add README.md&#10;git commit -m &quot;first commit&quot;&#10;git branch -M main&#10;git remote add origin https://github.com/AlexanderBGreat/ActivateWorkCapstoneProject.git&#10;git push -u origin main">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/CartPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/CheckoutPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testcases/BaseTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testcases/Checkout_tests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testcases/Login_tests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chromedriver_win32/chromedriver_win32/chromedriver.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/ProductPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/ProductPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/RegistrationPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/SearchResultsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/SearchResultsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/AddToCart_tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/AddToCart_tests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/Registration_tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/Registration_tests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/SearchResults_tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/SearchResults_tests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/library/SelectBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/library/SelectBrowser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,19 +36,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ALEXANDER/Documents/SBA/Deitrick_Alexander_Capstone_CaseStudy&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/ALEXANDER/Documents/SBA/Deitrick_Alexander_Capstone_CaseStudy/chromedriver_win32/chromedriver_win32",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ALEXANDER\Documents\SBA\Deitrick_Alexander_Capstone_CaseStudy\chromedriver_win32\chromedriver_win32" />
+      <recent name="C:\Users\ALEXANDER\Documents\SBA\Deitrick_Alexander_Capstone_CaseStudy\chromedriver_win32" />
       <recent name="C:\Users\ALEXANDER\Documents\SBA\Deitrick_Alexander_Capstone_CaseStudy" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -72,7 +63,7 @@
       <recent name="library" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/ALEXANDER/Documents/SBA/Deitrick_Alexander_Capstone_CaseStudy/testng.xml">
+  <component name="RunManager" selected="TestNG.Registration_tests.test_passwordValidation">
     <configuration name="AddToCart_tests.test_CartCheck" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Deitrick_Alexander_Capstone_CaseStudy" />
       <extension name="coverage">
@@ -119,24 +110,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Login_tests.test_verifyLogin" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Deitrick_Alexander_Capstone_CaseStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testcases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testcases" />
-      <option name="MAIN_CLASS_NAME" value="testcases.Login_tests" />
-      <option name="METHOD_NAME" value="test_verifyLogin" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Registration_tests.test_emailValidation" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Deitrick_Alexander_Capstone_CaseStudy" />
       <extension name="coverage">
@@ -155,13 +128,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Registration_tests.test_passwordValidation" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Deitrick_Alexander_Capstone_CaseStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testcases" />
+      <option name="MAIN_CLASS_NAME" value="testcases.Registration_tests" />
+      <option name="METHOD_NAME" value="test_passwordValidation" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Registration_tests.test_passwordValidation" />
+        <item itemvalue="TestNG.Login_tests.test_negativeLogin" />
         <item itemvalue="TestNG.C:/Users/ALEXANDER/Documents/SBA/Deitrick_Alexander_Capstone_CaseStudy/testng.xml" />
         <item itemvalue="TestNG.Registration_tests.test_emailValidation" />
         <item itemvalue="TestNG.AddToCart_tests.test_CartCheck" />
-        <item itemvalue="TestNG.Login_tests.test_verifyLogin" />
-        <item itemvalue="TestNG.Login_tests.test_negativeLogin" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655852555698</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="echo &quot;# ActivateWorkCapstoneProject&quot; &gt;&gt; README.md&#10;git init&#10;git add README.md&#10;git commit -m &quot;first commit&quot;&#10;git branch -M main&#10;git remote add origin https://github.com/AlexanderBGreat/ActivateWorkCapstoneProject.git&#10;git push -u origin main">
+      <created>1656102971594</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1656102971594</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

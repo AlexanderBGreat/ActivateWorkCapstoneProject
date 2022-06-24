@@ -39,6 +39,8 @@ public class SelectBrowser {
         driver.manage().window().maximize();
         return driver;
 
+    //WebDriverManager.chromedriver().setup();
+        //https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager
 
     }
 }
